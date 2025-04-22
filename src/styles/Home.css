@@ -1,0 +1,210 @@
+/* Reset & Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+    width: 100vw;
+    height: auto;
+    overflow-x: hidden;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  /* Header Section */
+  .header .description {
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .description h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .description p {
+    font-size: 1.2rem;
+    color: white;
+  }
+  
+  /* About Section */
+  .about {
+    padding: 40px 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .about-box {
+    max-width: 1000px;
+    padding: 2rem;
+  }
+  
+  .about-box h2 {
+    color: #4caf50;
+    margin-bottom: 10px;
+  }
+  
+  .about-box p {
+    font-size: 1rem;
+    color: black;
+    line-height: 1.8;
+    margin-bottom: 20px;
+  }
+  
+  /* Keynote Speaker Section */
+  .outer-section {
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .keynote {
+    width: 60%;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+  }
+  
+  .keynote h2 {
+    font-size: 1.8rem;
+    color: black;
+    margin-bottom: 1rem;
+  }
+  
+  .speaker-card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: center;
+  }
+  
+  .speaker-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .scroll-bar {
+    max-height: 300px;
+    overflow-y: auto;
+    padding-right: 10px;
+  }
+  
+  .scroll-bar::-webkit-scrollbar {
+    width: 6px;
+  }
+  .scroll-bar::-webkit-scrollbar-thumb {
+    background-color: #4caf50;
+    border-radius: 6px;
+  }
+  
+  .ReadMore {
+    display: inline-block;
+    margin-top: 10px;
+    color: #4caf50;
+    text-decoration: none;
+  }
+  
+  /* Schedule Section */
+  .schedule {
+    padding: 40px 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .schedule h2 {
+    font-size: 1.8rem;
+    color: #4caf50;
+    margin-bottom: 1rem;
+  }
+  
+  .schedule p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .schedule table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+  }
+  
+  .schedule th,
+  .schedule td {
+    padding: 0.8rem;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .schedule th {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .schedule td {
+    background-color: #f9f9f9;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .keynote {
+      width: 90%;
+      margin: 2rem auto;
+      padding: 1.5rem;
+    }
+  
+    .speaker-card {
+      flex-direction: column;
+    }
+  
+    .about-box {
+      padding: 1rem;
+    }
+  
+    .schedule table {
+      font-size: 0.9rem;
+      display: block;
+      overflow-x: auto;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .description h1 {
+      font-size: 1.8rem;
+    }
+  
+    .description p {
+      font-size: 1rem;
+    }
+  
+    .schedule table {
+      font-size: 0.85rem;
+    }
+  }
+  
