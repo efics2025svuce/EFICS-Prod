@@ -32,7 +32,7 @@ const Schedule = () => {
         </tr>
         <tr>
           <td>Conference Dates</td>
-          <td>May 30-31, 2025</td>
+          <td>July 14-15, 2025</td>
         </tr>
       </tbody>
     </table>

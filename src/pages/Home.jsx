@@ -28,7 +28,7 @@ const Home = () => {
         <div style={myStyle} className="description">
           <h1>Electrifying the Future</h1>
           <p>International Conference on Innovations, Challenges & Sustainable Mobility (EFICS-2025)</p>
-          <p>30th & 31st May, 2025</p>
+          <p>14th & 15th July, 2025</p>
         </div>
       </header>
 
@@ -105,7 +105,7 @@ const Home = () => {
             </tr>
             <tr>
               <td>Conference Dates</td>
-              <td>May 30-31, 2025</td>
+              <td>July 14-15, 2025</td>
             </tr>
           </tbody>
         </table>

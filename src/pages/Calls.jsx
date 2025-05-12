@@ -13,7 +13,7 @@ const CallsComponent = () => { // Renamed the component to avoid conflict
           <div className="Date-section">
             <div className="Inner-Date-section">
               <div className="Date" />
-              <span>May 30-31, 2025</span>
+              <span>July 14-15, 2025</span>
             </div>
             <div className="Place-section">
               <div className="Location" />
