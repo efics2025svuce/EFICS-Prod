@@ -6,7 +6,7 @@ import "../styles/ConferenceTheme.css"
       <div className="containers">
         <h1>About the Conference</h1>
         <p>
-          The Department of Electrical and Electronics Engineering (EEE) at Sri Venkateswara University College of Engineering (SVUCE), Tirupati, is proud to host EFICS-2025, a two-day international conference on May 30th and 31st, 2025. This event aims to provide a platform for academicians, industry professionals, and students to present their research innovations and engage in knowledge exchange.
+          The Department of Electrical and Electronics Engineering (EEE) at Sri Venkateswara University College of Engineering (SVUCE), Tirupati, is proud to host EFICS-2025, a two-day international conference on July 14th and 15th, 2025. This event aims to provide a platform for academicians, industry professionals, and students to present their research innovations and engage in knowledge exchange.
         </p>
   
         <h2>About SVUCE, Tirupati</h2>

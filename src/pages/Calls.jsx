@@ -51,10 +51,10 @@ const CallsComponent = () => { // Renamed the component to avoid conflict
           <section className="Important-Date-section">
             <h2 className="Important_date">Important Dates</h2>
             <ul className="List">
-              <li>Abstract Submission Deadline: April 15, 2025</li>
-              <li>Notification of Acceptance: April 31, 2025</li>
-              <li>Full Paper Submission Deadline: May 7, 2025</li>
-              <li>Final Acceptance & Registration: May 15, 2025</li>
+              <li>Abstract Submission Deadline: June 15, 2025</li>
+              <li>Notification of Acceptance: June 30, 2025</li>
+              <li>Full Paper Submission Deadline: July 1, 2025</li>
+              <li>Final Acceptance & Registration: July 5, 2025</li>
             </ul>
           </section>
 

@@ -16,19 +16,19 @@ const Schedule = () => {
       <tbody>
         <tr>
           <td>Abstract Submission</td>
-          <td>April 15, 2025</td>
+          <td>June 15, 2025</td>
         </tr>
         <tr>
           <td>Notification of Acceptance</td>
-          <td>April 30, 2025</td>
+          <td>June 30, 2025</td>
         </tr>
         <tr>
           <td>Full Paper Submission Deadline</td>
-          <td>May 7, 2025</td>
+          <td>July 1, 2025</td>
         </tr>
         <tr>
           <td>Intimation to Participants</td>
-          <td>May 15, 2025</td>
+          <td>July 5, 2025</td>
         </tr>
         <tr>
           <td>Conference Dates</td>
