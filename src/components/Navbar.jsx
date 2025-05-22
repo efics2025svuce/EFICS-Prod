@@ -22,7 +22,7 @@ function Navbar() {
         <Link to="/Calls">Call for Papers</Link>
         <Link to="/Schedule">Schedule</Link>
         <Link to="/Contact">Contact</Link>
-        <Link to="/Register">Register Now</Link>
+        <Link to="https://docs.google.com/forms/d/e/1FAIpQLSdxnTDfqfDulHw6v50glAQWsIc3pq0XU63FOuto-1XqNw4irQ/viewform" target="#">Register Now</Link>
       </div>
     </nav>
   );

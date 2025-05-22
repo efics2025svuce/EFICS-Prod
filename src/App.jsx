@@ -8,7 +8,7 @@ import Schedule from './pages/Schedule'
 import Calls from './pages/Calls'
 
 function App() {
-  
+    
 
   return (
     <>
@@ -22,6 +22,7 @@ function App() {
           <Route path="/ConferenceTheme" element={<ConferenceTheme/>}/>
           <Route path="/Schedule" element={<Schedule/>} />
           <Route path="/Calls" element={<Calls/>}/>
+
         </Routes>
       </Router>
 
