@@ -48,13 +48,13 @@ const CallsComponent = () => { // Renamed the component to avoid conflict
             </ul>
           </section>
 
-          <section className="Important-Date-section">
+          <section className="Important-Date-section">  
             <h2 className="Important_date">Important Dates</h2>
             <ul className="List">
-              <li>Abstract Submission Deadline: June 15, 2025</li>
-              <li>Notification of Acceptance: June 30, 2025</li>
-              <li>Full Paper Submission Deadline: July 1, 2025</li>
-              <li>Final Acceptance & Registration: July 5, 2025</li>
+              <li>Abstract Submission Deadline: June 30, 2025</li>
+              <li>Notification of Acceptance: July 1, 2025</li>
+              <li>Full Paper Submission Deadline: July 5, 2025</li>
+              <li>Final Acceptance & Registration: July 10, 2025</li>
             </ul>
           </section>
 
@@ -78,7 +78,7 @@ const CallsComponent = () => { // Renamed the component to avoid conflict
             <a href="https://forms.gle/1wcEjokbn5k6LYrz5" target="_blank" rel="noopener noreferrer">
               <button className="my-button">
                 Paper Submission
-              </button>
+             </button>
             </a>
           </div>
         </section>
